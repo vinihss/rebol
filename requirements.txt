@@ -1,0 +1,6 @@
+huggingface_hub
+openai
+fastapi
+pydantic
+load_dotenv
+uvicorn

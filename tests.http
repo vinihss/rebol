@@ -1,0 +1,12 @@
+### GET request to example server
+GET https://examples.http-client.intellij.net/get
+    ?generated-in=PyCharm
+
+###
+
+POST 0.0.0.0:8000/chat
+Content-Type: application/json
+
+{
+  "message": "content"
+}
