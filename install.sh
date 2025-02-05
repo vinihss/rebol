@@ -1,2 +1,1 @@
-pip install -r requirements.txt
-
+echo "Custom install by vini"
