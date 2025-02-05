@@ -185,6 +185,3 @@ async def chat_endpoint(chat_message: ChatMessage):
             status_code=500,
             detail="An internal error occurred. Please try again later."
         )
-
-import uvicorn
-uvicorn.run(app, host="0.0.0.0", port=8000)
