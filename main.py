@@ -112,7 +112,7 @@ app.add_middleware(
 # Initialize HuggingFace client
 client = InferenceClient(
     model="deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
-    api_key=os.getenv('HF_TOKEN')
+    api_key=os.getenv('HF_TOKEN', )
 )
 
 async def log_request(message: str):
